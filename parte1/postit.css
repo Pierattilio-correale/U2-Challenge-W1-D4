@@ -47,7 +47,8 @@ body{
 }
 .ex1:hover{
 
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1.5);
+    z-index: 2;
 }
 .ex2{
     background-color:#C6F5C8;
@@ -56,7 +57,8 @@ body{
 }
 .ex2:hover{
 
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1.5);
+    z-index: 2;
 }
 .ex3{
     background-color: #B1B1CD;
@@ -65,7 +67,8 @@ body{
 }
 .ex3:hover{
 
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1.5);
+    z-index: 2;
 }
 .ex4{
     background-color: #BCE4BF;
@@ -74,7 +77,8 @@ body{
 }
 .ex4:hover{
 
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1.5);
+    z-index: 2;
 }
 .ex5{
     background-color: #F9FAC8;
@@ -84,7 +88,8 @@ body{
 }
 .ex5:hover{
 
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1.5);
+    z-index: 2;
 }
 .ex6{
     background-color:#C5C5F0;
@@ -94,7 +99,8 @@ body{
 }
 .ex6:hover{
 
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1.5);
+    z-index: 2;
 }
 .ex7{
     background-color: #F9FAC8;
@@ -103,7 +109,8 @@ body{
 }
 .ex7:hover{
 
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1.5);
+    z-index: 2;
 }
 .ex8{
     background-color: #C8F8CA;
@@ -112,5 +119,6 @@ body{
 }
 .ex8:hover{
 
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1.5);
+    z-index: 2;
 }

@@ -11,21 +11,10 @@ body{
 .second-article{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+ 
 
 }
-.task {
-    width: 270px;
-    height: 220px;
-    margin-left: 40px;
-    border: 1px solid;
- 
-    box-shadow: 0px 2px 12px 0px black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .task h3{
     font-weight: bold;
     font-size: 2.4em;
@@ -96,5 +85,35 @@ body{
 
 
 @keyframes postitappear {
-    
+    0%{
+        transform: translateY(-800px);
+    }
+    25%{
+        transform: translateY(-600px);
+    }
+    50%{
+        transform: translateY(-400px);
+    }
+    75%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+
+}
+.task {
+    width: 270px;
+    height: 220px;
+  
+    border: 1px solid;
+ 
+    box-shadow: 0px 2px 12px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0px);
+    animation: postitappear 8s linear 1;
 }
