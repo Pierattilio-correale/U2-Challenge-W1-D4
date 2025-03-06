@@ -41,14 +41,23 @@ main{
 }
 
 
+
+@keyframes text-appear {
+    0% { opacity: 0; transform: translate(-50%, -40px); }   
+    10% { opacity: 1; transform: translate(-50%, -10px); }  
+    30% { opacity: 1; transform: translate(-50%, 0px); }    
+    40% { opacity: 0; transform: translate(-50%, 40px); }  
+    100% { opacity: 0; transform: translate(-50%, 40px); }  
+}
+
 .parole {
-    animation: text-appear 10s  1;
+    animation: text-appear 30s infinite;
 }
 
 .parole2 {
-    animation: text-appear 10s  1 10s;
+    animation: text-appear 30s infinite 10s;
 }
 
 .parole3 {
-    animation: text-appear 10s  1 20s;
+    animation: text-appear 30s infinite 20s;
 }
