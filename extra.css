@@ -11,6 +11,7 @@ body{
 .second-article{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
  
 
 }
@@ -106,7 +107,7 @@ body{
 .task {
     width: 270px;
     height: 220px;
-  
+   margin-left: 40px;
     border: 1px solid;
  
     box-shadow: 0px 2px 12px 0px black;
@@ -116,4 +117,40 @@ body{
     align-items: center;
     transform: translateY(0px);
     animation: postitappear 8s linear 1;
+} 
+.ex1{
+    animation: postitappear 5s linear 1;
+    transform: rotate(-5deg);
+}
+.ex2{
+    animation: postitappear 6s linear 1;
+    transform: rotate(5deg);
+}
+.ex3{
+    animation: postitappear 7s linear 1;
+    transform: rotate(-5deg);
+}
+.ex4{
+    animation: postitappear 8s linear 1;
+    transform: rotate(10deg);
+}
+.ex5{
+    animation: postitappear 14s linear 1;
+    z-index: 2;
+    transform: rotate(-5deg);
+}
+.ex6{
+    animation: postitappear 15s linear 1;
+    z-index: 2;
+    transform: rotate(-5deg) ;
+}
+.ex7{
+    animation: postitappear 16s linear 1;
+    z-index: 2;
+    transform: rotate(-5deg) ;
+}
+.ex8{
+    animation: postitappear 17s linear 1;
+    z-index: 2;
+    transform: rotate(5deg) ;
 }
