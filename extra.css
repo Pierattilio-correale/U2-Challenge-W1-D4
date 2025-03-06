@@ -1,0 +1,100 @@
+/* STRUTTURA BASE DEL LAY OUT */
+body{
+    background-color: #666666;
+
+}
+.first-article{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.second-article{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.task {
+    width: 270px;
+    height: 220px;
+    margin-left: 40px;
+    border: 1px solid;
+ 
+    box-shadow: 0px 2px 12px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.task h3{
+    font-weight: bold;
+    font-size: 2.4em;
+    font-family: "Indie Flower", cursive;
+}
+.task p{
+    font-family: "Handlee", cursive;
+    margin-top: 20px;
+    font-size: 1.6em;
+}
+
+/* OGNI SINGOLO QUADRATO */
+.ex1{
+    background-color:#F7F7C5;
+
+}
+
+
+.ex2{
+    background-color:#C6F5C8;
+   
+
+}
+
+.ex3{
+    background-color: #B1B1CD;
+  
+
+}
+
+
+   
+
+.ex4{
+    background-color: #BCE4BF;
+
+
+}
+
+
+.ex5{
+    background-color: #F9FAC8;
+
+
+    
+}
+
+.ex6{
+    background-color:#C5C5F0;
+
+  
+    
+}
+
+.ex7{
+    background-color: #F9FAC8;
+   
+}
+
+.ex8{
+    background-color: #C8F8CA;
+   
+}
+
+
+
+
+
+
+@keyframes postitappear {
+    
+}

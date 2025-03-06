@@ -8,3 +8,47 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+main{
+  
+    margin-top: 300px;
+}
+#testoAlternato{
+    border: 1px solid black;
+    width: 500px;
+    height: 70px;
+    padding: 20px;
+    font-weight: bold;
+    position: relative;
+
+   
+}
+.parole, .parole2, .parole3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    display: inline-block;
+    color: #6D8898;
+}
+
+@keyframes text-appear {
+    0% { opacity: 0; transform: translate(-50%, -40px); }   
+    20% { opacity: 1; transform: translate(-50%, -10px); }  
+    50% { opacity: 1; transform: translate(-50%, 0px); }    
+   
+    100% { opacity: 0; transform: translate(-50%, 40px); }  
+}
+
+
+.parole {
+    animation: text-appear 10s  1;
+}
+
+.parole2 {
+    animation: text-appear 10s  1 10s;
+}
+
+.parole3 {
+    animation: text-appear 10s  1 20s;
+}
